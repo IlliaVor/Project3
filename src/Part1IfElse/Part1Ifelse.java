@@ -39,11 +39,11 @@ public class Part1Ifelse {
         System.out.println("Question 3: Which band released the album 'Abbey Road'?");
         System.out.println("1) The Rolling Stones");
         System.out.println("2) The Beatles");
-        System.out.println("2) Led Zeppelin");
+        System.out.println("3) Led Zeppelin");
         System.out.print("Your answer: ");
         char answer2 = in.next().charAt(0);
 
-        if (answer2 == '1' ) {
+        if (answer2 == '1') {
             System.out.println("Correct! 'Abbey Road' is by The Beatles.");
             score++;
         } else {
@@ -56,7 +56,7 @@ public class Part1Ifelse {
         System.out.print("Your answer: ");
         char answer3 = in.next().charAt(0);
 
-        if (answer3 == '2' ) {
+        if (answer3 == '2') {
             System.out.println("Correct! 'Bohemian Rhapsody' is by Queen.");
             score++;
         } else {
