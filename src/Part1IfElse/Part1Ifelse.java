@@ -18,7 +18,7 @@ public class Part1Ifelse {
         if (num == 4) {
             System.out.println("Yeah! You're right.");
             score++;
-        } else if (num != 4) {
+        } else {
 
             System.out.println("You were close, the correct answer is 4.");
         }
@@ -65,7 +65,7 @@ public class Part1Ifelse {
         System.out.println("Quiz Complete!");
         System.out.println("Your score: " + score + " out of 4");
 
-        // Provide a music-related comment based on the score
+
         if (score == 3) {
             System.out.println("Congratulations! You're a music expert!");
         } else if (score >= 1) {
